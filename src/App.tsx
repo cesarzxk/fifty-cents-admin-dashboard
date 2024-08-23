@@ -15,5 +15,6 @@ export const App = () => (
     dataProvider={dataProvider}
     authProvider={authProvider}
   >
+    <Resource name="items" list={ListGuesser} />
   </Admin>
 );
